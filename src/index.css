@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* estilos globais */
+html, body, #root {
+  height: 100%;
+}
+body {
+  @apply bg-rm-dark text-rm-text font-hero;
+}
